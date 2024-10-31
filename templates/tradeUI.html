@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT Trade</title>
+  </head>
+  <body>
+    <h1>NFT Trade</h1>
+    <form id="tradeForm">
+      <label for="firstNFT">First Trader's NFT Name:</label>
+      <input type="text" id="firstNFT" name="firstNFT" required />
+      <br /><br />
+
+      <label for="secondNFT">Second Trader's NFT Name:</label>
+      <input type="text" id="secondNFT" name="secondNFT" required />
+      <br /><br />
+
+      <button type="submit">Initiate Trade</button>
+    </form>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="https://cdn.jsdelivr.net/npm/diamnet-sdk@latest"></script>
+    <script src="tradeNFT.js"></script>
+  </body>
+</html>
